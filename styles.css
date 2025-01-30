@@ -122,6 +122,21 @@ button {
   margin: 0 15% 0 15%;
 }
 
+#animation {
+  width: 10rem;
+  position: absolute;
+  right: 10%;
+  transform: rotate(10deg);
+}
+
+#animation-image {
+  width: 10rem;
+  position: absolute;
+  right: 10%;
+  top: 150%;
+  transform: rotate(-20deg);
+}
+
 #container-page2 {
   height: auto;
   min-height: 100vh;
