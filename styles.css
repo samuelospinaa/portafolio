@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media (max-width: 400px) {
+  #container-page1 {
+    flex-direction: column !important;
+    gap: 4rem;
+  }
+
+  #samuel {
+    margin-bottom: 14rem;
+    width: 200px !important;
+    height: auto !important;
+  }
+
+  h1 {
+    width: 0.5rem;
+  }
+
+  #lists {
+    flex-direction: column;
+  }
+
+  .project-image,
+  .project-video {
+    width: 2rem;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+P {
+  font-weight: 300;
+  width: 75%;
+  margin: none;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+#container-page1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 15% 0 15%;
+  flex-direction: row;
+}
+
+#cotaniner-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  width: 50%;
+}
+
+#container-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#samuel {
+  height: 350px;
+  filter: drop-shadow(0 0 0.75rem rgb(71, 71, 71));
+  transition: all 0.5s ease-in-out;
+}
+
+#samuel:hover,
+#github-logo:hover,
+#linkdn-logo:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+  transform: scale(1.1);
+}
+
+#projects-a {
+  background-color: black;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+#projects-a:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+
+#github-logo,
+#linkdn-logo {
+  height: 35px;
+  filter: drop-shadow(0 0 0.75rem rgb(71, 71, 71));
+  transition: all 0.5s ease-in-out;
+  margin-right: 15px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: auto;
+  min-height: 50vh;
+  width: 75%;
+  margin: 0 15% 0 15%;
+}
+
+#container-page2 {
+  height: auto;
+  min-height: 100vh;
+  margin: 0 15% 0 15%;
+}
+
+#container-projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  box-sizing: border-box;
+  border-radius: 5px;
+  gap: 15px;
+}
+
+.media {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-image,
+.project-video {
+  width: 30rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+#skills-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list {
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+.skill-logo {
+  height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.link-direction {
+  width: 8rem;
+  height: 3rem;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 5px;
+  background-color: black;
+  border-color: white;
+  transition: all 0.5s ease-in-out;
+  margin: 1rem;
+}
+
+.link-direction:hover {
+  background-color: rgba(34, 30, 30, 0.671);
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+
+footer {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
